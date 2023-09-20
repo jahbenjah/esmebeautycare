@@ -1,17 +1,28 @@
 title: Esme Beauty Care
+slogan: Atrévete a lucir un rostro hidratado y libre de impurezas.
 email: contacto@esmebeautycare.com
-phone: 661-612-2841
+phone: 661 612 2841
 address: Romualdo Gallardo Orozco 1317, Lucio Blanco, 22706 Playas de Rosarito, B.C. México
 description: >- # this means to ignore newlines until "baseurl:"
-  Atrévete a lucir un rostro hidratado y libre de impurezas.
+  El mejor camino para obtener resultados, es siguiendo una buena rutina.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://esmebeautycare.com" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-02PLEPHJF3
+lang: es-mx
+
+social:
+  name: Esme Beauty Care
+  links:
+facebook_username: https://www.facebook.com/EsmeBeautyCare
+instagram_username: https://www.instagram.com/esmebeautycare
+tiktok_username: 
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag  
+  - jekyll-sitemap
 
 defaults:
   -

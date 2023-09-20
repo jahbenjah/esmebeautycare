@@ -90,7 +90,7 @@ a {text-decoration:none;}
   background-color: rgba(0, 0, 0, 0.3);
 }
 .background:first-child {
-  background-image: url(../img/bg1.jpg);
+  background-image: url(../img/cosmetologia.jpeg);
   -webkit-transform: translateY(-15vh);
           transform: translateY(-15vh);
 }
@@ -102,13 +102,13 @@ a {text-decoration:none;}
   background-image: url(../img/bg2.jpg);
 }
 .background:nth-child(3) {
-  background-image: url(../img/bg3.jpg);
+  background-image: url(../img/bg6.jpg);
 }
 .background:nth-child(4) {
   background-image: url(../img/bg4.jpg);
 }
 .background:nth-child(5) {
-  background-image: url(../img/bg5.jpg);
+  background-image: url(../img/bg7.jpg);
 }
 
 /* Set stacking context of slides */
