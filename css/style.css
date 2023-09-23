@@ -249,7 +249,7 @@ border-top: 1px solid;
 
 
 .aboutbadge {
-background-color:rgba(190, 45, 90, 0.62);
+background-color:#cca56d;
 width:200px;
 height:200px;
 max-width:100%;
@@ -720,7 +720,7 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #fff;
+    border-top-color: #edd395;
 
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -736,7 +736,7 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
         bottom: 5px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #ab4964;
+        border-top-color: #cca56d;
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -751,7 +751,7 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
         bottom: 15px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #25E2F7;
+        border-top-color: #c16dbe;
 
         -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
