@@ -90,7 +90,7 @@ a {text-decoration:none;}
   background-color: rgba(0, 0, 0, 0.3);
 }
 .background:first-child {
-  background-image: url(../img/cosmetologia.jpeg);
+  background-image: url(../img/backgrounds/main-bg.webp);
   -webkit-transform: translateY(-15vh);
           transform: translateY(-15vh);
 }
@@ -99,16 +99,16 @@ a {text-decoration:none;}
           transform: translateY(15vh);
 }
 .background:nth-child(2) {
-  background-image: url(../img/bg2.jpg);
+  background-image: url(../img/backgrounds/bg-left-6.2.jpg.webp);
 }
 .background:nth-child(3) {
-  background-image: url(../img/bg6.jpg);
+  background-image: url(../img/backgrounds/bg-right-1.jpg.webp);
 }
 .background:nth-child(4) {
-  background-image: url(../img/bg4.jpg);
+  background-image: url(../img/backgrounds/bg-left-2.jpg.jpg.webp);
 }
 .background:nth-child(5) {
-  background-image: url(../img/bg7.jpg);
+  background-image: url(../img/backgrounds/bg-right-4.jpg.webp);
 }
 
 /* Set stacking context of slides */
@@ -340,7 +340,7 @@ font-size: 17px;
 }
 
 .pricingbadge h4 {
-    color: #be2d5a;
+    color: #c16dbe;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -365,19 +365,19 @@ font-size: 17px;
 .pricing_menu__meal span {
     margin: 0;
     position: relative;
-    top: 1.6em;
+    top: 1em;
     padding-right: 5px;
-    background: #090a0d;
+    background: clear;
 	    line-height: 1.4;
 }
 
 .pricing_menu__price {  
 	padding:1px 0 1px 5px;
 	position:relative;
-	top:.4em;
+	top:.0em;
 	left:1px;/* ie6 rounding error*/
 	float:right;
-	background: #090a0d;
+	background: clear;
 }
 
 a.fullpricelist {
@@ -388,7 +388,7 @@ a.fullpricelist {
     display: inline-block;
     clear: both;
     float: none;
-    background: #be2d5a;
+    background: #c16dbe;
     padding: 10px 15px;
     border-radius: 30px;
 }
@@ -838,7 +838,7 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
 .menu-outer:hover ~ .menu-close {
   margin-right:-100px;
 }
-.menu-outer:hover .bar {     background: rgba(145, 255, 255, 0.65); }
+.menu-outer:hover .bar {     background: #c16dbe; }
 .menu-inner ul {
   top:50%;
   -webkit-transform:translateY(-50%);
@@ -860,7 +860,7 @@ html, body {
   left: 100%;
   margin-left: -100px;
   height: 200%;
-      background: rgba(145, 255, 255, 0.65);
+      background: #cca56d;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   -ms-transition: all ease .5s;
@@ -878,7 +878,7 @@ html, body {
   transform: rotate(-45deg);
 }
 .menu-outer:hover {
-  background: rgba(40, 154, 154, 0.95);
+  background: #c16dbe;
   left: 0;
   margin-left: 0;
   -webkit-transform: rotate(0deg);
@@ -965,7 +965,7 @@ nav li a:hover {
   right: 100%;
   width: 200px;
   height: 200px;
-  background: #be2d5a;
+  background: #edd395;
   cursor: pointer;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
