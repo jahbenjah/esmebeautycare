@@ -19,9 +19,10 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $comment = $_POST['comment'];
 
-if (!$name) $errors[count($errors)] = 'Please enter your name.';
-if (!$email) $errors[count($errors)] = 'Please enter your email.'; 
-if (!$comment) $errors[count($errors)] = 'Please enter your comment.'; 
+if (!$name || !$email || !$comment) {
+    echo "Please fill out all the required fields.";
+    exit;
+}
 
 $recaptcha_secret = '6LfmfMgoAAAAAJciCuPI9wIhr0C5mB8EI1vansgU';
 $recaptcha_response = $_POST['token'];
@@ -51,20 +52,12 @@ if ($result_json['success']) {
     // reCAPTCHA verification failed
     // Handle accordingly (e.g., show an error message)
 }
+$mail->Body = "Nombre: {$name}  <br> Correo Electronico: {$email} <br> Mensaje : {$comment}";
+$mail->AddAddress("contacto@esmebeautycare.com");
 
-if (!$errors) {
-
-	$mail->Body = "Nombre: {$name}  <br> Correo Electronico: {$email} <br> Mensaje : {$comment}";
-	$mail->AddAddress("contacto@esmebeautycare.com");
-	if(!$mail->Send()) {
-		echo "Mailer Error: " . $mail->ErrorInfo;
-	} else {
-		echo "OK";
-	}
-
+if (!$mail->Send()) {
+    echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-	for ($i=0; $i<count($errors); $i++) echo $errors[$i] . '<br/>';
-	echo '<a href="index.html">Back</a>';
-	exit;
+    echo "OK";
 }
 ?>
