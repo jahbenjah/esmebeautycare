@@ -60,6 +60,7 @@ $(document).ready(function() {
 						}, 1000);
 					},
 					error: function (error) {
+						console.log(error);
 						$('#overlay').text('Lo sentimos, ocurrió un error :(');
 						setTimeout(function () {
 							overlay.style.display = 'none';
