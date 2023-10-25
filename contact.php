@@ -1,7 +1,7 @@
 <?php
 
-require("PHPMailer\src\PHPMailer.php");
-require("PHPMailer\src\SMTP.php");
+require("assets/vendor/PHPMailer/src/PHPMailer.php");
+require("assets/vendor/PHPMailer/src/SMTP.php");
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 $mail->IsSMTP(); // enable SMTP
 $mail->SMTPDebug = 0; // debugging: 1 = errors and messages, 2 = messages only
