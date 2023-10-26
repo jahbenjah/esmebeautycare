@@ -46,10 +46,11 @@ $(document).ready(function() {
 				
 				$('.text').attr('disabled','true');
 				$('.loading').show();
-				
+			  
 				$.ajax({
 					url: "contact.php",    
-					type: "POST",
+					method: "POST",
+					headers: {"cookie": "humans_21909=1" },
 					data: data,        
 					cache: false,
 					success: function (msg) {
